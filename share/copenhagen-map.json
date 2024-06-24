@@ -49,7 +49,12 @@
             { "id": "kobenhavnh", "name": "Københavns Hovedbanegård", "line": "m3,m4", "link": "raadhuspladsen,enghaveplads" },
             { "id": "enghaveplads", "name": "Enghave Plads", "line": "m3", "link": "frederiksbergalle,kobenhavnh" },
             { "id": "nordhavn", "name": "Nordhavn", "line": "m4", "link": "osterport,orientkaj" },
-            { "id": "orientkaj", "name": "Orientkaj", "line": "m4", "link": "nordhavn" }
+            { "id": "orientkaj", "name": "Orientkaj", "line": "m4", "link": "nordhavn" },
+			{ "id": "havneholmen", "name": "Havneholmen", "line": "m4", "link": "kobenhavnh,enghavebrygge"},
+			{ "id": "enghavebrygge", "name": "Enghave Brygge", "line": "m4", "link": "havneholmen,sluseholmen"},
+			{ "id": "sluseholmen", "name": "Sluseholmen", "line": "m4", "link": "enghavebrygge,mozartsplads"},
+			{ "id": "mozartsplads", "name": "Mozarts Plads", "line": "m4", "link": "sluseholmen,kobenhavnsyd"},
+			{ "id": "kobenhavnsyd", "name": "København Syd", "line": "m4", "link": "mozartsplads"}
         ]
 	}
 }
